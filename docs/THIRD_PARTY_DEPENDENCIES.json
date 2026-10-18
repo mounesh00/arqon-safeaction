@@ -1,0 +1,938 @@
+{
+  "scope": "Informational metadata, not legal clearance or complete upstream notice reproduction. No dependency code/binaries are bundled.",
+  "python_profiles": [
+    {
+      "name": "annotated-types",
+      "version": "0.6.0",
+      "license_metadata": "NOT DECLARED",
+      "profile": "backend"
+    },
+    {
+      "name": "anyio",
+      "version": "4.7.0",
+      "license_metadata": "MIT",
+      "profile": "backend"
+    },
+    {
+      "name": "certifi",
+      "version": "2025.4.26",
+      "license_metadata": "MPL-2.0",
+      "profile": "backend"
+    },
+    {
+      "name": "click",
+      "version": "8.1.8",
+      "license_metadata": "NOT DECLARED",
+      "profile": "backend"
+    },
+    {
+      "name": "fastapi",
+      "version": "0.115.6",
+      "license_metadata": "NOT DECLARED",
+      "profile": "backend"
+    },
+    {
+      "name": "h11",
+      "version": "0.16.0",
+      "license_metadata": "MIT",
+      "profile": "backend"
+    },
+    {
+      "name": "httpcore",
+      "version": "1.0.9",
+      "license_metadata": "BSD-3-Clause",
+      "profile": "backend"
+    },
+    {
+      "name": "httpx",
+      "version": "0.27.2",
+      "license_metadata": "BSD-3-Clause",
+      "profile": "backend"
+    },
+    {
+      "name": "idna",
+      "version": "3.7",
+      "license_metadata": "NOT DECLARED",
+      "profile": "backend"
+    },
+    {
+      "name": "iniconfig",
+      "version": "1.1.1",
+      "license_metadata": "MIT License",
+      "profile": "backend"
+    },
+    {
+      "name": "packaging",
+      "version": "24.2",
+      "license_metadata": "NOT DECLARED",
+      "profile": "backend"
+    },
+    {
+      "name": "pluggy",
+      "version": "1.5.0",
+      "license_metadata": "MIT",
+      "profile": "backend"
+    },
+    {
+      "name": "pydantic",
+      "version": "2.10.4",
+      "license_metadata": "MIT",
+      "profile": "backend"
+    },
+    {
+      "name": "pydantic-core",
+      "version": "2.27.2",
+      "license_metadata": "MIT",
+      "profile": "backend"
+    },
+    {
+      "name": "pytest",
+      "version": "8.3.4",
+      "license_metadata": "MIT",
+      "profile": "backend"
+    },
+    {
+      "name": "pytest-asyncio",
+      "version": "0.25.0",
+      "license_metadata": "Apache 2.0",
+      "profile": "backend"
+    },
+    {
+      "name": "sniffio",
+      "version": "1.3.0",
+      "license_metadata": "MIT OR Apache-2.0",
+      "profile": "backend"
+    },
+    {
+      "name": "starlette",
+      "version": "0.41.3",
+      "license_metadata": "BSD-3-Clause",
+      "profile": "backend"
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.15.0",
+      "license_metadata": "PSF-2.0",
+      "profile": "backend"
+    },
+    {
+      "name": "uvicorn",
+      "version": "0.34.0",
+      "license_metadata": "BSD-3-Clause",
+      "profile": "backend"
+    },
+    {
+      "name": "annotated-types",
+      "version": "0.6.0",
+      "license_metadata": "NOT DECLARED",
+      "profile": "mcp"
+    },
+    {
+      "name": "anyio",
+      "version": "4.7.0",
+      "license_metadata": "MIT",
+      "profile": "mcp"
+    },
+    {
+      "name": "attrs",
+      "version": "24.3.0",
+      "license_metadata": "MIT",
+      "profile": "mcp"
+    },
+    {
+      "name": "certifi",
+      "version": "2025.4.26",
+      "license_metadata": "MPL-2.0",
+      "profile": "mcp"
+    },
+    {
+      "name": "cffi",
+      "version": "1.17.1",
+      "license_metadata": "MIT",
+      "profile": "mcp"
+    },
+    {
+      "name": "click",
+      "version": "8.1.8",
+      "license_metadata": "NOT DECLARED",
+      "profile": "mcp"
+    },
+    {
+      "name": "cryptography",
+      "version": "44.0.1",
+      "license_metadata": "Apache-2.0 OR BSD-3-Clause",
+      "profile": "mcp"
+    },
+    {
+      "name": "h11",
+      "version": "0.16.0",
+      "license_metadata": "MIT",
+      "profile": "mcp"
+    },
+    {
+      "name": "httpcore",
+      "version": "1.0.9",
+      "license_metadata": "BSD-3-Clause",
+      "profile": "mcp"
+    },
+    {
+      "name": "httpx",
+      "version": "0.27.2",
+      "license_metadata": "BSD-3-Clause",
+      "profile": "mcp"
+    },
+    {
+      "name": "httpx-sse",
+      "version": "0.4.3",
+      "license_metadata": "MIT",
+      "profile": "mcp"
+    },
+    {
+      "name": "idna",
+      "version": "3.7",
+      "license_metadata": "NOT DECLARED",
+      "profile": "mcp"
+    },
+    {
+      "name": "iniconfig",
+      "version": "1.1.1",
+      "license_metadata": "MIT License",
+      "profile": "mcp"
+    },
+    {
+      "name": "jsonschema",
+      "version": "4.23.0",
+      "license_metadata": "MIT",
+      "profile": "mcp"
+    },
+    {
+      "name": "jsonschema-specifications",
+      "version": "2023.7.1",
+      "license_metadata": "MIT",
+      "profile": "mcp"
+    },
+    {
+      "name": "mcp",
+      "version": "1.30.0",
+      "license_metadata": "MIT",
+      "profile": "mcp"
+    },
+    {
+      "name": "packaging",
+      "version": "24.2",
+      "license_metadata": "NOT DECLARED",
+      "profile": "mcp"
+    },
+    {
+      "name": "pluggy",
+      "version": "1.5.0",
+      "license_metadata": "MIT",
+      "profile": "mcp"
+    },
+    {
+      "name": "pycparser",
+      "version": "2.21",
+      "license_metadata": "BSD",
+      "profile": "mcp"
+    },
+    {
+      "name": "pydantic",
+      "version": "2.14.0",
+      "license_metadata": "MIT",
+      "profile": "mcp"
+    },
+    {
+      "name": "pydantic-core",
+      "version": "2.50.0",
+      "license_metadata": "MIT",
+      "profile": "mcp"
+    },
+    {
+      "name": "pydantic-settings",
+      "version": "2.7.0",
+      "license_metadata": "MIT",
+      "profile": "mcp"
+    },
+    {
+      "name": "pyjwt",
+      "version": "2.10.1",
+      "license_metadata": "MIT",
+      "profile": "mcp"
+    },
+    {
+      "name": "pytest",
+      "version": "8.3.4",
+      "license_metadata": "MIT",
+      "profile": "mcp"
+    },
+    {
+      "name": "pytest-asyncio",
+      "version": "0.25.0",
+      "license_metadata": "Apache 2.0",
+      "profile": "mcp"
+    },
+    {
+      "name": "python-dotenv",
+      "version": "1.0.1",
+      "license_metadata": "BSD-3-Clause",
+      "profile": "mcp"
+    },
+    {
+      "name": "python-multipart",
+      "version": "0.0.20",
+      "license_metadata": "Apache-2.0",
+      "profile": "mcp"
+    },
+    {
+      "name": "referencing",
+      "version": "0.30.2",
+      "license_metadata": "MIT",
+      "profile": "mcp"
+    },
+    {
+      "name": "rpds-py",
+      "version": "0.22.3",
+      "license_metadata": "NOT DECLARED",
+      "profile": "mcp"
+    },
+    {
+      "name": "sniffio",
+      "version": "1.3.0",
+      "license_metadata": "MIT OR Apache-2.0",
+      "profile": "mcp"
+    },
+    {
+      "name": "sse-starlette",
+      "version": "3.5.0",
+      "license_metadata": "BSD-3-Clause",
+      "profile": "mcp"
+    },
+    {
+      "name": "starlette",
+      "version": "1.7.0",
+      "license_metadata": "BSD-3-Clause",
+      "profile": "mcp"
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.16.0",
+      "license_metadata": "PSF-2.0",
+      "profile": "mcp"
+    },
+    {
+      "name": "typing-inspection",
+      "version": "0.4.4",
+      "license_metadata": "MIT",
+      "profile": "mcp"
+    },
+    {
+      "name": "uvicorn",
+      "version": "0.34.0",
+      "license_metadata": "BSD-3-Clause",
+      "profile": "mcp"
+    }
+  ],
+  "npm_lockfile_packages": [
+    {
+      "package": "@alloc/quick-lru",
+      "version": "5.3.0",
+      "license_metadata": "MIT",
+      "optional": false
+    },
+    {
+      "package": "@emnapi/runtime",
+      "version": "1.11.3",
+      "license_metadata": "MIT",
+      "optional": true
+    },
+    {
+      "package": "@img/colour",
+      "version": "1.1.0",
+      "license_metadata": "MIT",
+      "optional": true
+    },
+    {
+      "package": "@img/sharp-darwin-arm64",
+      "version": "0.35.5",
+      "license_metadata": "Apache-2.0",
+      "optional": true
+    },
+    {
+      "package": "@img/sharp-darwin-x64",
+      "version": "0.35.5",
+      "license_metadata": "Apache-2.0",
+      "optional": true
+    },
+    {
+      "package": "@img/sharp-freebsd-wasm32",
+      "version": "0.35.5",
+      "license_metadata": "Apache-2.0",
+      "optional": true
+    },
+    {
+      "package": "@img/sharp-libvips-darwin-arm64",
+      "version": "1.3.4",
+      "license_metadata": "LGPL-3.0-or-later",
+      "optional": true
+    },
+    {
+      "package": "@img/sharp-libvips-darwin-x64",
+      "version": "1.3.4",
+      "license_metadata": "LGPL-3.0-or-later",
+      "optional": true
+    },
+    {
+      "package": "@img/sharp-libvips-linux-arm",
+      "version": "1.3.4",
+      "license_metadata": "LGPL-3.0-or-later",
+      "optional": true
+    },
+    {
+      "package": "@img/sharp-libvips-linux-arm64",
+      "version": "1.3.4",
+      "license_metadata": "LGPL-3.0-or-later",
+      "optional": true
+    },
+    {
+      "package": "@img/sharp-libvips-linux-ppc64",
+      "version": "1.3.4",
+      "license_metadata": "LGPL-3.0-or-later",
+      "optional": true
+    },
+    {
+      "package": "@img/sharp-libvips-linux-riscv64",
+      "version": "1.3.4",
+      "license_metadata": "LGPL-3.0-or-later",
+      "optional": true
+    },
+    {
+      "package": "@img/sharp-libvips-linux-s390x",
+      "version": "1.3.4",
+      "license_metadata": "LGPL-3.0-or-later",
+      "optional": true
+    },
+    {
+      "package": "@img/sharp-libvips-linux-x64",
+      "version": "1.3.4",
+      "license_metadata": "LGPL-3.0-or-later",
+      "optional": true
+    },
+    {
+      "package": "@img/sharp-libvips-linuxmusl-arm64",
+      "version": "1.3.4",
+      "license_metadata": "LGPL-3.0-or-later",
+      "optional": true
+    },
+    {
+      "package": "@img/sharp-libvips-linuxmusl-x64",
+      "version": "1.3.4",
+      "license_metadata": "LGPL-3.0-or-later",
+      "optional": true
+    },
+    {
+      "package": "@img/sharp-linux-arm",
+      "version": "0.35.5",
+      "license_metadata": "Apache-2.0",
+      "optional": true
+    },
+    {
+      "package": "@img/sharp-linux-arm64",
+      "version": "0.35.5",
+      "license_metadata": "Apache-2.0",
+      "optional": true
+    },
+    {
+      "package": "@img/sharp-linux-ppc64",
+      "version": "0.35.5",
+      "license_metadata": "Apache-2.0",
+      "optional": true
+    },
+    {
+      "package": "@img/sharp-linux-riscv64",
+      "version": "0.35.5",
+      "license_metadata": "Apache-2.0",
+      "optional": true
+    },
+    {
+      "package": "@img/sharp-linux-s390x",
+      "version": "0.35.5",
+      "license_metadata": "Apache-2.0",
+      "optional": true
+    },
+    {
+      "package": "@img/sharp-linux-x64",
+      "version": "0.35.5",
+      "license_metadata": "Apache-2.0",
+      "optional": true
+    },
+    {
+      "package": "@img/sharp-linuxmusl-arm64",
+      "version": "0.35.5",
+      "license_metadata": "Apache-2.0",
+      "optional": true
+    },
+    {
+      "package": "@img/sharp-linuxmusl-x64",
+      "version": "0.35.5",
+      "license_metadata": "Apache-2.0",
+      "optional": true
+    },
+    {
+      "package": "@img/sharp-wasm32",
+      "version": "0.35.5",
+      "license_metadata": "Apache-2.0 AND LGPL-3.0-or-later AND MIT",
+      "optional": true
+    },
+    {
+      "package": "@img/sharp-webcontainers-wasm32",
+      "version": "0.35.5",
+      "license_metadata": "Apache-2.0",
+      "optional": true
+    },
+    {
+      "package": "@img/sharp-win32-arm64",
+      "version": "0.35.5",
+      "license_metadata": "Apache-2.0 AND LGPL-3.0-or-later",
+      "optional": true
+    },
+    {
+      "package": "@img/sharp-win32-ia32",
+      "version": "0.35.5",
+      "license_metadata": "Apache-2.0 AND LGPL-3.0-or-later",
+      "optional": true
+    },
+    {
+      "package": "@img/sharp-win32-x64",
+      "version": "0.35.5",
+      "license_metadata": "Apache-2.0 AND LGPL-3.0-or-later",
+      "optional": true
+    },
+    {
+      "package": "@jridgewell/gen-mapping",
+      "version": "0.3.13",
+      "license_metadata": "MIT",
+      "optional": false
+    },
+    {
+      "package": "@jridgewell/remapping",
+      "version": "2.3.5",
+      "license_metadata": "MIT",
+      "optional": false
+    },
+    {
+      "package": "@jridgewell/resolve-uri",
+      "version": "3.1.2",
+      "license_metadata": "MIT",
+      "optional": false
+    },
+    {
+      "package": "@jridgewell/sourcemap-codec",
+      "version": "1.6.0",
+      "license_metadata": "MIT",
+      "optional": false
+    },
+    {
+      "package": "@jridgewell/trace-mapping",
+      "version": "0.3.31",
+      "license_metadata": "MIT",
+      "optional": false
+    },
+    {
+      "package": "@next/env",
+      "version": "16.4.0",
+      "license_metadata": "MIT",
+      "optional": false
+    },
+    {
+      "package": "@next/swc-darwin-arm64",
+      "version": "16.4.0",
+      "license_metadata": "MIT",
+      "optional": true
+    },
+    {
+      "package": "@next/swc-darwin-x64",
+      "version": "16.4.0",
+      "license_metadata": "MIT",
+      "optional": true
+    },
+    {
+      "package": "@next/swc-linux-arm64-gnu",
+      "version": "16.4.0",
+      "license_metadata": "MIT",
+      "optional": true
+    },
+    {
+      "package": "@next/swc-linux-arm64-musl",
+      "version": "16.4.0",
+      "license_metadata": "MIT",
+      "optional": true
+    },
+    {
+      "package": "@next/swc-linux-x64-gnu",
+      "version": "16.4.0",
+      "license_metadata": "MIT",
+      "optional": true
+    },
+    {
+      "package": "@next/swc-linux-x64-musl",
+      "version": "16.4.0",
+      "license_metadata": "MIT",
+      "optional": true
+    },
+    {
+      "package": "@next/swc-win32-arm64-msvc",
+      "version": "16.4.0",
+      "license_metadata": "MIT",
+      "optional": true
+    },
+    {
+      "package": "@next/swc-win32-x64-msvc",
+      "version": "16.4.0",
+      "license_metadata": "MIT",
+      "optional": true
+    },
+    {
+      "package": "@swc/helpers",
+      "version": "0.5.23",
+      "license_metadata": "Apache-2.0",
+      "optional": false
+    },
+    {
+      "package": "@tailwindcss/node",
+      "version": "4.3.3",
+      "license_metadata": "MIT",
+      "optional": false
+    },
+    {
+      "package": "@tailwindcss/oxide",
+      "version": "4.3.3",
+      "license_metadata": "MIT",
+      "optional": false
+    },
+    {
+      "package": "@tailwindcss/oxide-android-arm64",
+      "version": "4.3.3",
+      "license_metadata": "MIT",
+      "optional": true
+    },
+    {
+      "package": "@tailwindcss/oxide-darwin-arm64",
+      "version": "4.3.3",
+      "license_metadata": "MIT",
+      "optional": true
+    },
+    {
+      "package": "@tailwindcss/oxide-darwin-x64",
+      "version": "4.3.3",
+      "license_metadata": "MIT",
+      "optional": true
+    },
+    {
+      "package": "@tailwindcss/oxide-freebsd-x64",
+      "version": "4.3.3",
+      "license_metadata": "MIT",
+      "optional": true
+    },
+    {
+      "package": "@tailwindcss/oxide-linux-arm-gnueabihf",
+      "version": "4.3.3",
+      "license_metadata": "MIT",
+      "optional": true
+    },
+    {
+      "package": "@tailwindcss/oxide-linux-arm64-gnu",
+      "version": "4.3.3",
+      "license_metadata": "MIT",
+      "optional": true
+    },
+    {
+      "package": "@tailwindcss/oxide-linux-arm64-musl",
+      "version": "4.3.3",
+      "license_metadata": "MIT",
+      "optional": true
+    },
+    {
+      "package": "@tailwindcss/oxide-linux-x64-gnu",
+      "version": "4.3.3",
+      "license_metadata": "MIT",
+      "optional": true
+    },
+    {
+      "package": "@tailwindcss/oxide-linux-x64-musl",
+      "version": "4.3.3",
+      "license_metadata": "MIT",
+      "optional": true
+    },
+    {
+      "package": "@tailwindcss/oxide-wasm32-wasi",
+      "version": "4.3.3",
+      "license_metadata": "MIT",
+      "optional": true
+    },
+    {
+      "package": "@tailwindcss/oxide-win32-arm64-msvc",
+      "version": "4.3.3",
+      "license_metadata": "MIT",
+      "optional": true
+    },
+    {
+      "package": "@tailwindcss/oxide-win32-x64-msvc",
+      "version": "4.3.3",
+      "license_metadata": "MIT",
+      "optional": true
+    },
+    {
+      "package": "@tailwindcss/postcss",
+      "version": "4.3.3",
+      "license_metadata": "MIT",
+      "optional": false
+    },
+    {
+      "package": "@types/node",
+      "version": "22.20.5",
+      "license_metadata": "MIT",
+      "optional": false
+    },
+    {
+      "package": "@types/react",
+      "version": "19.3.0",
+      "license_metadata": "MIT",
+      "optional": false
+    },
+    {
+      "package": "@types/react-dom",
+      "version": "19.3.0",
+      "license_metadata": "MIT",
+      "optional": false
+    },
+    {
+      "package": "baseline-browser-mapping",
+      "version": "2.11.28",
+      "license_metadata": "Apache-2.0",
+      "optional": false
+    },
+    {
+      "package": "caniuse-lite",
+      "version": "1.0.30001815",
+      "license_metadata": "CC-BY-4.0",
+      "optional": false
+    },
+    {
+      "package": "client-only",
+      "version": "0.0.1",
+      "license_metadata": "MIT",
+      "optional": false
+    },
+    {
+      "package": "csstype",
+      "version": "3.2.3",
+      "license_metadata": "MIT",
+      "optional": false
+    },
+    {
+      "package": "detect-libc",
+      "version": "2.1.2",
+      "license_metadata": "Apache-2.0",
+      "optional": false
+    },
+    {
+      "package": "enhanced-resolve",
+      "version": "5.26.0",
+      "license_metadata": "MIT",
+      "optional": false
+    },
+    {
+      "package": "graceful-fs",
+      "version": "4.2.11",
+      "license_metadata": "ISC",
+      "optional": false
+    },
+    {
+      "package": "jiti",
+      "version": "2.7.0",
+      "license_metadata": "MIT",
+      "optional": false
+    },
+    {
+      "package": "lightningcss",
+      "version": "1.32.0",
+      "license_metadata": "MPL-2.0",
+      "optional": false
+    },
+    {
+      "package": "lightningcss-android-arm64",
+      "version": "1.32.0",
+      "license_metadata": "MPL-2.0",
+      "optional": true
+    },
+    {
+      "package": "lightningcss-darwin-arm64",
+      "version": "1.32.0",
+      "license_metadata": "MPL-2.0",
+      "optional": true
+    },
+    {
+      "package": "lightningcss-darwin-x64",
+      "version": "1.32.0",
+      "license_metadata": "MPL-2.0",
+      "optional": true
+    },
+    {
+      "package": "lightningcss-freebsd-x64",
+      "version": "1.32.0",
+      "license_metadata": "MPL-2.0",
+      "optional": true
+    },
+    {
+      "package": "lightningcss-linux-arm-gnueabihf",
+      "version": "1.32.0",
+      "license_metadata": "MPL-2.0",
+      "optional": true
+    },
+    {
+      "package": "lightningcss-linux-arm64-gnu",
+      "version": "1.32.0",
+      "license_metadata": "MPL-2.0",
+      "optional": true
+    },
+    {
+      "package": "lightningcss-linux-arm64-musl",
+      "version": "1.32.0",
+      "license_metadata": "MPL-2.0",
+      "optional": true
+    },
+    {
+      "package": "lightningcss-linux-x64-gnu",
+      "version": "1.32.0",
+      "license_metadata": "MPL-2.0",
+      "optional": true
+    },
+    {
+      "package": "lightningcss-linux-x64-musl",
+      "version": "1.32.0",
+      "license_metadata": "MPL-2.0",
+      "optional": true
+    },
+    {
+      "package": "lightningcss-win32-arm64-msvc",
+      "version": "1.32.0",
+      "license_metadata": "MPL-2.0",
+      "optional": true
+    },
+    {
+      "package": "lightningcss-win32-x64-msvc",
+      "version": "1.32.0",
+      "license_metadata": "MPL-2.0",
+      "optional": true
+    },
+    {
+      "package": "magic-string",
+      "version": "0.30.21",
+      "license_metadata": "MIT",
+      "optional": false
+    },
+    {
+      "package": "nanoid",
+      "version": "3.3.20",
+      "license_metadata": "MIT",
+      "optional": false
+    },
+    {
+      "package": "next",
+      "version": "16.4.0",
+      "license_metadata": "MIT",
+      "optional": false
+    },
+    {
+      "package": "next/node_modules/postcss",
+      "version": "8.5.23",
+      "license_metadata": "MIT",
+      "optional": false
+    },
+    {
+      "package": "picocolors",
+      "version": "1.1.1",
+      "license_metadata": "ISC",
+      "optional": false
+    },
+    {
+      "package": "postcss",
+      "version": "8.5.29",
+      "license_metadata": "MIT",
+      "optional": false
+    },
+    {
+      "package": "react",
+      "version": "19.3.0",
+      "license_metadata": "MIT",
+      "optional": false
+    },
+    {
+      "package": "react-dom",
+      "version": "19.3.0",
+      "license_metadata": "MIT",
+      "optional": false
+    },
+    {
+      "package": "scheduler",
+      "version": "0.28.0",
+      "license_metadata": "MIT",
+      "optional": false
+    },
+    {
+      "package": "semver",
+      "version": "7.8.5",
+      "license_metadata": "ISC",
+      "optional": true
+    },
+    {
+      "package": "sharp",
+      "version": "0.35.5",
+      "license_metadata": "Apache-2.0",
+      "optional": true
+    },
+    {
+      "package": "source-map-js",
+      "version": "1.2.2",
+      "license_metadata": "BSD-3-Clause",
+      "optional": false
+    },
+    {
+      "package": "styled-jsx",
+      "version": "5.1.6",
+      "license_metadata": "MIT",
+      "optional": false
+    },
+    {
+      "package": "tailwindcss",
+      "version": "4.3.3",
+      "license_metadata": "MIT",
+      "optional": false
+    },
+    {
+      "package": "tapable",
+      "version": "2.3.3",
+      "license_metadata": "MIT",
+      "optional": false
+    },
+    {
+      "package": "tslib",
+      "version": "2.8.1",
+      "license_metadata": "0BSD",
+      "optional": false
+    },
+    {
+      "package": "typescript",
+      "version": "5.9.3",
+      "license_metadata": "Apache-2.0",
+      "optional": false
+    },
+    {
+      "package": "undici-types",
+      "version": "6.21.0",
+      "license_metadata": "MIT",
+      "optional": false
+    }
+  ],
+  "metadata_limitations": "Missing declarations are not a license grant. Preserve and review full upstream license/NOTICE files for any later dependency redistribution."
+}

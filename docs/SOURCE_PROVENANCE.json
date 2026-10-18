@@ -1,0 +1,238 @@
+{
+  "source_directory": "<OWNER_LOCAL_SOURCE_ROOT>",
+  "git_metadata": false,
+  "copied_files": [
+    {
+      "path": "apps/web/app/api/v1/[...path]/route.ts",
+      "source_sha256": "be73168200aaef4db06d4fe22dbafac1900711521f27cac4070515919fcb5f02"
+    },
+    {
+      "path": "apps/web/app/globals.css",
+      "source_sha256": "c28600acf134cfa3880812309d754108831007cc1be3cd73a67910021900325e"
+    },
+    {
+      "path": "apps/web/app/layout.tsx",
+      "source_sha256": "57d0c7ac7feef1fe055212ee1c6a610c3cba62050a4ea87a60b50c73637b6d23"
+    },
+    {
+      "path": "apps/web/app/page.tsx",
+      "source_sha256": "6794eba48e5d4d56f8e7eba75697a7c45e10d73ef5def8730e811bf94f642c56"
+    },
+    {
+      "path": "apps/web/app/safe-action-panel.tsx",
+      "source_sha256": "9bfbfec224be022c82dcc5ee29a2f2ac708ddb721f7441ce60053c9e0302a523"
+    },
+    {
+      "path": "apps/web/lib/operator.ts",
+      "source_sha256": "ea5b62645b5aad14b3230c83e883b28433f133e590b83839e5622f621b61dc14"
+    },
+    {
+      "path": "apps/web/lib/proxy.ts",
+      "source_sha256": "3a952e21f85a1691a593c5ea13a92f7a23311291478c5053d2062058c9ec3e1c"
+    },
+    {
+      "path": "apps/web/lib/safe-action-client.ts",
+      "source_sha256": "f7ca247e0d44563dce32549e2f5edf67ffc9d6fdb4b37d34894a8adf497d55d1"
+    },
+    {
+      "path": "apps/web/next-env.d.ts",
+      "source_sha256": "0f70629890b72a0a82e91972cc032c04b658b26c265373cb711cf576bfbf8fcc"
+    },
+    {
+      "path": "apps/web/next.config.ts",
+      "source_sha256": "913783ff58fa959ab6263c0b1e92e02ffb061ebb441ab6580d9c50f9df3376aa"
+    },
+    {
+      "path": "apps/web/package-lock.json",
+      "source_sha256": "5cc69c2de02463678fcf8be1982c65c6a2c9b2443d6b4fd8a309562349c13bb9"
+    },
+    {
+      "path": "apps/web/package.json",
+      "source_sha256": "64cd48fa56f787af7bb563d600934cdefe8d110bb5e7647f9ba7fb3d363d0ea3"
+    },
+    {
+      "path": "apps/web/postcss.config.mjs",
+      "source_sha256": "f50058e0d309cdb3e7c25a1123337338641fb71e988572607d57f47209db1fd1"
+    },
+    {
+      "path": "apps/web/scripts/operator-auth.test.mjs",
+      "source_sha256": "ad0f9af12838e5cb31df03df21d5dab4f93e5f322ac80ce81c0a71b47eb36379"
+    },
+    {
+      "path": "apps/web/scripts/safe-action-ui.test.mjs",
+      "source_sha256": "3cdafe2ecc905bea7435581c7fd56e7e84122d79c7d7762b2e4714c72e0a826f"
+    },
+    {
+      "path": "apps/web/scripts/safe-action.test.mjs",
+      "source_sha256": "5e27a476e10e59d8352ab77a9e9017c929908f0a1e19f2346a8d2c2db8b73cfc"
+    },
+    {
+      "path": "apps/web/scripts/verify.mjs",
+      "source_sha256": "06522aed950cce8391f496005c3b483cab8b604ba8da073fa1243a2b8472e043"
+    },
+    {
+      "path": "apps/web/tsconfig.json",
+      "source_sha256": "ad601b8f43405319585fc21df65b23c816e5c99d7cc7622c04b51fb5ff186955"
+    },
+    {
+      "path": "arqon_os/__init__.py",
+      "source_sha256": "0be63c95a942809c81862f6227380aff3ff4e12926cae1e373cc0b1cdd047c40"
+    },
+    {
+      "path": "arqon_os/agents/__init__.py",
+      "source_sha256": "5d5c1ad914c9f4d6031429f8e1253a6d11a9a13f5aa807dceab1cb1516b0d76f"
+    },
+    {
+      "path": "arqon_os/agents/basic.py",
+      "source_sha256": "e85fbff811d14059e9b1cbe1f71317f62525459e44d50c1ff8dfe79483491c05"
+    },
+    {
+      "path": "arqon_os/api.py",
+      "source_sha256": "fd4a87e486962dc441d148d64189488dc88b9f1ae8d2adb3c709ca6783367c40"
+    },
+    {
+      "path": "arqon_os/core/__init__.py",
+      "source_sha256": "296e85f48cd9c89e4d2acd16bd6dccb37aa84996558c8d3760300a6e5ff687ee"
+    },
+    {
+      "path": "arqon_os/core/config.py",
+      "source_sha256": "5d3e0020ce0eb892563a7a86efa7aef29d46ce7cd4de9eda05b4367b46b919d7"
+    },
+    {
+      "path": "arqon_os/core/errors.py",
+      "source_sha256": "379591f29d50ceba83abab1ef4e69d05e6bf7a8599170a58f815d461cf4ec234"
+    },
+    {
+      "path": "arqon_os/core/results.py",
+      "source_sha256": "a36dc8695050b0f120f527a227ac34669454e4fca615ec18596c3f560d19a3d2"
+    },
+    {
+      "path": "arqon_os/gateway/__init__.py",
+      "source_sha256": "0f8ba8ceecb00bdbdedccff0272dface8b22167ec24340af3514c3ee8fac90b0"
+    },
+    {
+      "path": "arqon_os/gateway/gateway.py",
+      "source_sha256": "c489db145506761948e842d883b655ce5d048c94b2bf5af49a3ae309d02bf17d"
+    },
+    {
+      "path": "arqon_os/gateway/models.py",
+      "source_sha256": "26bd3d7b3fa49101e22c13e91c56871015652013b73b3dea1e0115c1a67de8a7"
+    },
+    {
+      "path": "arqon_os/gateway/provider.py",
+      "source_sha256": "8b1b51cf87df99cc63e6ec7ea353c53bf323837bd75c7809b3087a75b6adc35f"
+    },
+    {
+      "path": "arqon_os/mcp_server.py",
+      "source_sha256": "7bb4646451c11fb7ff1d12b02cf277d08637532e1ea5552453acba59c916a634"
+    },
+    {
+      "path": "arqon_os/runtime/__init__.py",
+      "source_sha256": "c9bc7eeb30c8e8c72845ab60708a1533a68e3af8f176be023cb223aeec548997"
+    },
+    {
+      "path": "arqon_os/runtime/engine.py",
+      "source_sha256": "7a9c6000517c0992ec9eabdc88c126203f2c40dcbda4dd85020cfe51413b9546"
+    },
+    {
+      "path": "arqon_os/runtime/models.py",
+      "source_sha256": "41c73d919ea9ef7a962455596f997965007aa61b43a3ea375266e9fbc1d3b77c"
+    },
+    {
+      "path": "arqon_os/runtime/state_machine.py",
+      "source_sha256": "50f3dd68f6109f443fc55d1d54370b9268e9ff868b0ab15caa81f96ac9e26a34"
+    },
+    {
+      "path": "arqon_os/runtime/storage.py",
+      "source_sha256": "6ad004fa7667efe48cfd3d282173bad8a089fe675361ba3a1a911921a1b079cd"
+    },
+    {
+      "path": "arqon_os/safe_action.py",
+      "source_sha256": "d75206aadee391cfb3a6b30f32cafba8edc3da7458ba3327826a3ba862cc488a"
+    },
+    {
+      "path": "arqon_os/tools/__init__.py",
+      "source_sha256": "3f4bfa26f7d6f40bb87b27e9ab97aad6af402a9372b38c0db9189aa4f0d8e1be"
+    },
+    {
+      "path": "arqon_os/tools/approvals.py",
+      "source_sha256": "6f6312dfaf324a85461c23583e929440cbc630cf164ae2dbe9fe7ec5b4736664"
+    },
+    {
+      "path": "arqon_os/tools/permissions.py",
+      "source_sha256": "003ac9bdb5cd09b972d7944d38a7a8ee5a85d9782bb9ea4a49f13b2e2f840436"
+    },
+    {
+      "path": "arqon_os/tools/registry.py",
+      "source_sha256": "f104b38d2640d4ae78b2ecad81acdfd8a1c80eb490fe2966612a3538f9830a42"
+    },
+    {
+      "path": "examples/amazon_mcp_demo.py",
+      "source_sha256": "457cdd4df38939a292d56c2f3892d1616f38b82e727c07631fa64d0d59a390c0"
+    },
+    {
+      "path": "examples/amazon_recording_demo.py",
+      "source_sha256": "e71522779350d5c45b2c9f411c6758e219df8b47cc096f3fdadb477b6ecd3b96"
+    },
+    {
+      "path": "examples/basic_agent_demo.py",
+      "source_sha256": "dab9c8d58d4a30ac6b50d61ed878f2e72896aa24d5cdfda3ce544f78832b2b6d"
+    },
+    {
+      "path": "tests/test_amazon_mcp_demo.py",
+      "source_sha256": "d40608adfa7da9a32b9beb990b943af82d5c5a6a5f6b3544576aadbbf520e106"
+    },
+    {
+      "path": "tests/test_arqon_api.py",
+      "source_sha256": "5990669abba7eff59a6a64e17e61b33a5b1c7861b2840edd97599dc7af296e9a"
+    },
+    {
+      "path": "tests/test_arqon_basic_agent.py",
+      "source_sha256": "bdd740bff6a2857fefe4cbd912917f135b97f99e5b150d38312908809302b2cd"
+    },
+    {
+      "path": "tests/test_arqon_core.py",
+      "source_sha256": "8df66bc213fbf28390a3132bac9ea6f70f72b0f1e931e1f8f9b9269ab6bb18fa"
+    },
+    {
+      "path": "tests/test_arqon_gateway.py",
+      "source_sha256": "89e29d6ad57384dc75b34595ac3d50afcee8ef081501fae9681683b19bdec31a"
+    },
+    {
+      "path": "tests/test_arqon_mcp.py",
+      "source_sha256": "908eb00ff040a2d94fcc0386f8f0aa42440f25fee51e69a0ee126abb65509bff"
+    },
+    {
+      "path": "tests/test_arqon_runtime.py",
+      "source_sha256": "9cf96833b20c41b125c45c44588ca984d7fdf8a661fcd36e4a745cd58e689992"
+    },
+    {
+      "path": "tests/test_arqon_storage.py",
+      "source_sha256": "7fc5b33abeb2ebdf2dcc3013df0f46c05fdaf30f3846d9cc1a2863b5caae090e"
+    },
+    {
+      "path": "tests/test_arqon_tools.py",
+      "source_sha256": "8056990e4325d59d5902d287b00cef1a3a843411e6c29d559a08e4932117d69f"
+    },
+    {
+      "path": "tests/test_safe_action.py",
+      "source_sha256": "16d2a54e21b089ac8e5496bdee6c91bc6e29caca3912e9af86f4df7238bdef5d"
+    },
+    {
+      "path": "tests/test_safe_action_bridge.py",
+      "source_sha256": "52d756612dbe57bd977cbce5d34af21fae7b4755d60e8cb2427489bdd2505637"
+    },
+    {
+      "path": "tests/test_safe_action_mcp_bridge.py",
+      "source_sha256": "2e56182cae79ddd0a38aefb76a641c5bb3fd85f086997e8225a7fb2f107c0957"
+    }
+  ],
+  "release_only_adjustments": [
+    "Portable interpreter selection and production launcher mode",
+    "Cross-environment MCP test interpreter setting",
+    "Clean generated Next type declarations",
+    "PUBLICATION CANDIDATE: API docstring reference corrected; project behavior unchanged; public-facing path redaction and provisional licensing documentation added."
+  ],
+  "license": "MIT License; Copyright (c) 2026 Mounesh H Pattar. Owner attestations for original project code/publication permission, branding and screenshot/visual rights are recorded in FINAL_RIGHTS_REVIEW.md; no independent legal verification claimed. Source-only third-party notice review complete; separate publication authorization required.",
+  "privacy_note": "Original source path redacted for public preparation; copied-file source SHA-256 values retained. The audited backup contains the original local mapping."
+}

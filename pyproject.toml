@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "arqon-safeaction"
+version = "0.1.0"
+description = "Local MCP proposals with authenticated human review and SQLite decisions"
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+# Project MIT terms are supplied by LICENSE; package metadata is unchanged for this source-only release.
+[tool.setuptools.packages.find]
+include = ["arqon_os*", "examples*"]
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+testpaths = ["tests"]
+addopts = "-q --tb=short"
